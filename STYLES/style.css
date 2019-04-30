@@ -1,16 +1,65 @@
 body{
     background-image:linear-gradient(to bottom, #FFD4B4, #E7717D);
-    height: 100vh;
+    height: 100%;
 }
 
 
-nav{
-    
-    /* width: 80%; */
-    right: 50%;
-    position: fixed;
+
+
+
+
+/* Mission Statement  */
+#missiondiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
 }
 
-nav a{
-    padding: 2vw 2vw;
+#missiondiv p{
+    padding: 0% 15%;
+    margin: 0;
 }
+
+#missiondiv h1{
+    margin: 2% 0%;
+}
+
+
+
+
+/* Creators section */
+#creatordiv h1{
+    text-align: center;
+}
+
+#indivisuals{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#indivisuals h2{
+    text-align: center;
+}
+
+#creatorS{
+    padding: 0% 3%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    /* align-content: center; */
+}
+
+#creatorD {
+    padding: 0% 3%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+}
+
+
+
+
