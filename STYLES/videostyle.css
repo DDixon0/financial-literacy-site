@@ -4,54 +4,150 @@ body{
     margin: 0;
 }
 
-h1{
+#greaterdiv{
+    display: flex;
+}
+
+
+
+@keyframes wave {
+    0% {background-color: rgb(252, 204, 240);}
+    50% {background-color: rgb(134, 216, 248);}
+    100% {background-color: rgb(252, 204, 240);}
+    
+}
+.sideDiv{
+    width: 25%;
+    animation: wave 10s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Title Part */
+#introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#introduction h1{
     margin: 0;
+    margin-top: 50px;
 }
 
-#videos{
-    padding-top: 5%;
+#introduction p{
+   text-align: justify;
+   max-width: 50%;
 }
 
-#videos p{
-    padding-left: 5px;
-    max-width: 40%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#accounts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.iaccount{
+    display: flex;
+    /* border: 3px dashed salmon; */
+    border-radius: 7px;
+    margin: 3% 0%;
+    justify-content: space-evenly;
+    max-width: 75%;
+}
+
+.accounttitle{
+    display: flex;
+    flex-direction: column;
+}
+
+.accounttitle h1{
+    margin: 0%;
+}
+.iaccount p{
+    font-size: 20px;
     text-align: justify;
     margin: 0;
+    max-width: 500px;
 }
 
-.vtext{
-    display: flex;
-    padding-top: 2.5%;
-    max-width: 640px;
+.accounttitle h3{
+    font-size: 14px;
+    margin: 4px 0px;
 }
 
-.evideo{
-    border: 3px dashed salmon;
-    border-radius: 10px;
-    margin: 3% 0%;
+.accounttitle h2{
+    font-size: 16px;
+    margin: 4px 0px;
 }
 
-#videos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+.accountpara{
+    padding-left: 100px;
 }
 
 
 
+/* Final Input Div */
+#input .accounttitle{
+    max-width: 25%;
 
-
-
-/* Footer */
-footer{
-    background-color: #E7717D;
 }
 
-footer p{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1.5% 0%;
+
+#input h1{
+    font-size: 26px;
 }
+
+/* #input .accountpara{
+    padding-left: 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
