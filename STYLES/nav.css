@@ -1,7 +1,13 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 /* Navbar container */
 nav{
     overflow: hidden;
-    background-color: #333;
+    background-color: #4b4b4b;
     font-family: Arial; /* change font */ 
     position: sticky;
     position: fixed;
@@ -40,7 +46,8 @@ nav a{
 
 /* Add a red background color to navbar links on hover */
 nav a:hover, #dropdown:hover button {
-    background-image:linear-gradient(to bottom, #FFD4B4, #E7717D);
+    /* background-image:linear-gradient(to bottom, #FFD4B4, #E7717D); */
+    background-color: #4b4b4b;
 }
 
 

@@ -2,6 +2,7 @@ body{
     /* background-image:linear-gradient(to bottom, #FFD4B4, #E7717D); */
     height: 100%;
     margin: 0;
+    
 }
 
 #greaterdiv{
@@ -17,11 +18,19 @@ body{
     
 }
 .sideDiv{
-    width: 25%;
+    /* width: 25%; */
     animation: wave 10s infinite;
+    display: flex;
+    flex-direction: column;
+
 }
 
-
+.box{
+    padding: 3%;
+    width: 10%;
+    height: 10%;
+    background-color: red;
+}
 
 
 
